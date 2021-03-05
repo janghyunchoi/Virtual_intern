@@ -2,6 +2,7 @@
 def print_func(loc):
     prev_list = print_list = []
     i = 1
+    abc = 'aah'
     for line in f:  # reads ONLY ONE line from the file, and stops when hits end of file.
         line = line.replace('\n', '')
         values_on_line = [x.strip() for x in line.split(',')]
